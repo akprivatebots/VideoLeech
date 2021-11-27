@@ -1,5 +1,5 @@
 # for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/GBotStore)
+# working example group [Leech Here](https://t.me/AKLEECHZONE)
 
 # Telegram Torrent Leecher 🔥🤖
 
@@ -44,22 +44,10 @@ e)It should look like `app.json`. 🎉
 
 f)Then tap 👇👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) #Revived
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) #Revived 
 
-Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
+<p><a href="https://heroku.com/deploy?template=https://github.com/akprivatebots/VideoLeech"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-### The Legacy Way
-Simply clone the repository and run the main file:
-
-```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
-cd PublicLeech
-python3 -m venv venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create config.py appropriately>
-python3 -m tobrot
-```
 
 ### an example config.py 👇
 ```py
@@ -238,65 +226,6 @@ values in the <> are variables
 * [Only work with direct link for now]It is like u can add custom name as prefix of the original file name.
 Like if your file name is `gk.txt` uploaded will be what u add in `CUSTOM_FILE_NAME` + `gk.txt`
 
-Only works with direct link.No magnet or torrent.
-
-And also added custom name like...
-
-You have to pass link as 
-`www.download.me/gk.txt | new.txt`
-
-the file will be uploaded as `new.txt`.
-
-## Process to run this BOT on VPS
-
-- Clone this repo:
-```
-git clone https://github.com/gautamajay52/TorrentLeech-Gdrive torrentleech-gdrive
-cd torrentleech-gdrive
-```
-
-- Install requirements
-For Debian based distros
-```
-sudo apt install python3
-
-sudo snap install docker
-```
-Install Docker by following the [official docker docs](https://docs.docker.com/engine/install/debian/)
-
-## Setting up config file
-```
-cp tobrot/g_config.py tobrot/config.py
-```
-Follow and fill all the required variables that were already filled in the sample config file, but with your details. And you can also fill all other variables according to your need and all those are explained above already.
-
-## Deploying
-
-- Start docker daemon (skip if already running):
-```
-sudo dockerd
-```
-- Build Docker image:
-```
-sudo docker build . -t torrentleech-gdrive
-```
-- Run the image:
-```
-sudo docker run torrentleech-gdrive
-```
-
-
 ## How to Use?
 
 * send any one of the available command, as a reply to a valid link/magnet/torrent. 👊
-
-
-## Credits, and Thanks to
-* [GautamKumar(me)](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
-* [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
-* [Rclone Team](https://rclone.org) for theirs awesome tool☁️
-* [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-* [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
-* [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
-* [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-* [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
