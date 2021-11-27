@@ -1,9 +1,7 @@
 # for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
 # working example group [Leech Here](https://t.me/AKLEECHZONE)
 
-# Telegram Torrent Leecher 🔥🤖
-
-A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
+A Telegram Torrent (and youtube-dl) Leecher.
 
 # Benefits :-
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
