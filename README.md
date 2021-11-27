@@ -108,11 +108,7 @@ and everythin except `[NAME]`
 
 7. Hit deploy button.
 8. Examples:-
-<p align="center">
 
-  <img src="https://raw.githubusercontent.com/gautamajay52/TorrentLeech-Gdrive/master/rclone.jpg" width="470" height="150">
-
-</p>
 
 ## FAQ
 
